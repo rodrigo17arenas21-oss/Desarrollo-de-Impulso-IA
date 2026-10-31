@@ -1,0 +1,617 @@
+{
+  "version": 4,
+  "app_title": "Impulso IA",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-1d3f2f61",
+      "name": "Inicio",
+      "route": "/",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-9b6d3c2c",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-dbba5a83",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 0,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-798a412a",
+          "type": "hero",
+          "label": "Tu negocio tiene mucho que contar",
+          "hint": "Presentación de Impulso IA con enlace a campañas guardadas, texto introductorio, botón para crear la primera campaña y mensaje de inicio sin registro.",
+          "x": 0,
+          "y": 1,
+          "w": 6,
+          "h": 6,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-776ec56a",
+          "type": "card",
+          "label": "Ejemplo ilustrativo de campaña",
+          "hint": "Panel de ejemplo con una composición gráfica ficticia de panadería, texto de publicación, hashtags y aviso de que no es una campaña generada ni una oferta confirmada.",
+          "x": 6,
+          "y": 1,
+          "w": 6,
+          "h": 6,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-24eb8c19",
+          "type": "section",
+          "label": "Sencillo, paso a paso",
+          "hint": "Introducción al proceso: preparar textos locales, personalizar un diseño y guardar una campaña en este navegador.",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 2,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-8f012918",
+          "type": "card_grid",
+          "label": "Tres pasos disponibles",
+          "hint": "Tres tarjetas en fila: Cuéntanos tu idea, Dale forma al mensaje y Hazlo tuyo; cada una explica una etapa del flujo de campaña.",
+          "x": 0,
+          "y": 9,
+          "w": 12,
+          "h": 2,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-3109222f",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 11,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-15dfc5de",
+      "name": "Crear campaña",
+      "route": "/crear",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-ab639565",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-156c3541",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 0,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-f5b7e165",
+          "type": "hero",
+          "label": "Empecemos por tu negocio",
+          "hint": "Enlace para volver al inicio, etiqueta Paso 01 y explicación breve del formulario.",
+          "x": 0,
+          "y": 1,
+          "w": 9,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-00112005",
+          "type": "form",
+          "label": "Datos de la campaña",
+          "hint": "Formulario con campos para nombre y tipo de negocio, producto o servicio, público objetivo, objetivo de publicación, oferta opcional, precio opcional, tono, red social y formato cuadrado o vertical. Incluye tres secciones y botón Continuar.",
+          "x": 0,
+          "y": 2,
+          "w": 9,
+          "h": 9,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-271d3cea",
+          "type": "sidebar",
+          "label": "Consejos para crear",
+          "hint": "Panel lateral con una guía para definir una idea clara y una nota de cuidado sobre la información del negocio.",
+          "x": 9,
+          "y": 2,
+          "w": 3,
+          "h": 5,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-5fc8cd54",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 11,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-b15141c4",
+      "name": "Contenido",
+      "route": "/contenido",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-af219569",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-a81932d4",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 0,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-8545715e",
+          "type": "hero",
+          "label": "Tu contenido, con tus palabras",
+          "hint": "Enlace para volver al formulario, etiqueta Paso 02 y explicación de que los textos se generan localmente mediante plantillas, sin IA conectada.",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 2,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-44518679",
+          "type": "card",
+          "label": "Necesitamos tu punto de partida",
+          "hint": "Estado vacío por falta de datos de negocio, producto o servicio, público objetivo y objetivo de publicación; incluye enlace para completar los datos.",
+          "x": 0,
+          "y": 3,
+          "w": 12,
+          "h": 4,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-1c31053a",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-808a794b",
+      "name": "Diseño",
+      "route": "/diseno",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-b20e4a56",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-93bc5de4",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 0,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-42751494",
+          "type": "toolbar",
+          "label": "Editar contenido",
+          "hint": "Botón para volver a editar el contenido de la campaña.",
+          "x": 0,
+          "y": 1,
+          "w": 2,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-c3d0508d",
+          "type": "hero",
+          "label": "Hazlo tuyo",
+          "hint": "Etiqueta Paso 03 y explicación de plantillas gráficas, textos e imagen; indica que hay que guardar explícitamente para conservar la campaña.",
+          "x": 0,
+          "y": 2,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-deb2bc19",
+          "type": "text",
+          "label": "No hay una campaña en esta sesión",
+          "hint": "Mensaje que invita a abrir una campaña guardada en el historial o crear una nueva.",
+          "x": 0,
+          "y": 3,
+          "w": 6,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-ff4f768e",
+          "type": "card",
+          "label": "Abrir historial",
+          "hint": "Enlace ancho para abrir el historial de campañas guardadas.",
+          "x": 6,
+          "y": 3,
+          "w": 6,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-123b8c85",
+          "type": "card",
+          "label": "Crear una campaña",
+          "hint": "Enlace para iniciar una nueva campaña.",
+          "x": 0,
+          "y": 4,
+          "w": 6,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-4b3c6ba0",
+          "type": "text",
+          "label": "Ver historial guardado",
+          "hint": "Enlace de texto al historial guardado.",
+          "x": 0,
+          "y": 5,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-c80e6c95",
+          "type": "text",
+          "label": "Almacenamiento local",
+          "hint": "Aviso de que los datos solo se conservan en este navegador y sitio, sin cuenta ni sincronización; las imágenes permanecen en el dispositivo.",
+          "x": 0,
+          "y": 6,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-54b98126",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-89454e8b",
+      "name": "Configuración y ayuda",
+      "route": "/configuracion",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-cf211d73",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-6be797f3",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 0,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-ee912e65",
+          "type": "hero",
+          "label": "Configuración y ayuda",
+          "hint": "Etiqueta A tu manera y texto de introducción a las preferencias y ayuda.",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-2247a879",
+          "type": "card",
+          "label": "Preferencias para campañas nuevas",
+          "hint": "Selectores de tono y red predeterminados, botón Guardar preferencias, avisos de estado, acciones para restablecer solo preferencias o volver a leer y nota sobre su aplicación a campañas nuevas.",
+          "x": 0,
+          "y": 2,
+          "w": 6,
+          "h": 4,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-3558fc97",
+          "type": "card",
+          "label": "Integraciones · estado real",
+          "hint": "Explica la generación local de textos, las plantillas Canvas y que el adaptador de IA futura no está activo.",
+          "x": 6,
+          "y": 2,
+          "w": 6,
+          "h": 4,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-01e7fceb",
+          "type": "card",
+          "label": "Cómo usar Impulso, paso a paso",
+          "hint": "Lista numerada de seis pasos para crear, revisar contenido, autorizar promociones, diseñar, guardar y gestionar campañas; incluye enlaces para crear una campaña o abrir el historial.",
+          "x": 0,
+          "y": 6,
+          "w": 6,
+          "h": 5,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-5cd1c86c",
+          "type": "card",
+          "label": "Privacidad y almacenamiento",
+          "hint": "Tres explicaciones sobre almacenamiento local sin copia de seguridad, cuidado de datos sensibles y necesidad de conexión para la sesión.",
+          "x": 6,
+          "y": 6,
+          "w": 6,
+          "h": 5,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-1a0d5257",
+          "type": "list",
+          "label": "Ayuda práctica",
+          "hint": "Seis preguntas plegables sobre encontrar campañas, problemas de almacenamiento, preferencias, copiar en el teléfono, PNG y pérdida de sesión o conexión.",
+          "x": 0,
+          "y": 11,
+          "w": 12,
+          "h": 3,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-2a40a8e2",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 14,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-1a61002f",
+      "name": "Historial",
+      "route": "/historial",
+      "item_ref": null,
+      "blocks": [
+        {
+          "id": "blk-a598f532",
+          "type": "header",
+          "label": "Impulso IA",
+          "hint": "Marca enlazada al inicio, en la cabecera horizontal.",
+          "x": 0,
+          "y": 1,
+          "w": 4,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-8c90a3d5",
+          "type": "nav",
+          "label": "Navegación principal",
+          "hint": "Enlaces a Inicio, Historial, Ayuda y ajustes, Cómo funciona y Crear campaña.",
+          "x": 4,
+          "y": 1,
+          "w": 8,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-68714897",
+          "type": "hero",
+          "label": "Tus campañas, a mano",
+          "hint": "Etiqueta Tu espacio local, título de la página y explicación de que las campañas se guardan solo en este navegador.",
+          "x": 0,
+          "y": 2,
+          "w": 9,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-1c64cae2",
+          "type": "toolbar",
+          "label": "Actualizar historial",
+          "hint": "Botón para volver a leer las campañas guardadas en el navegador.",
+          "x": 9,
+          "y": 2,
+          "w": 3,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-a4b28f10",
+          "type": "text",
+          "label": "Almacenamiento del historial",
+          "hint": "Aviso de que la lista no se sincroniza entre dispositivos o pestañas y que borrar los datos del navegador elimina las campañas.",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-0f0ae1ee",
+          "type": "text",
+          "label": "0 campañas",
+          "hint": "Estado del historial: cero campañas, solo en este navegador y sin sincronización.",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-451aa416",
+          "type": "card",
+          "label": "Todavía no hay campañas guardadas",
+          "hint": "Estado vacío del historial con indicación de crear un diseño y pulsar Guardar campaña.",
+          "x": 0,
+          "y": 3,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-3a992a86",
+          "type": "card",
+          "label": "Crear una campaña",
+          "hint": "Botón para iniciar una campaña nueva.",
+          "x": 0,
+          "y": 5,
+          "w": 3,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        },
+        {
+          "id": "blk-18a7db43",
+          "type": "footer",
+          "label": "Pie de página",
+          "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": null,
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

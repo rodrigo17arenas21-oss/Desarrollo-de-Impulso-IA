@@ -1,0 +1,5 @@
+## Plan de Impulso IA
+- [x] Crear la base visual adaptable de Impulso IA y las pantallas de inicio y creación: fondo marfil claro, azul índigo y acentos coral, tipografía legible y navegación sencilla para celular; formulario con validaciones de negocio, oferta, audiencia, tono, red social y formato.
+- [x] Implementar la generación local y claramente identificada de tres titulares, texto, descripción corta, llamada a la acción, hashtags y propuestas de promoción sin inventar condiciones, con edición y copia de textos y manejo comprensible de datos faltantes.
+- [x] Implementar el diseñador de plantillas cuadradas y verticales con imagen aportada por el usuario, edición de textos y colores, vista previa y descarga PNG; añadir historial local con guardar, abrir, actualizar, duplicar y eliminar con confirmación.
+- [x] Completar configuración y ayuda con privacidad y estado de integraciones; probar los flujos disponibles, corregir fallos reproducibles y documentar ejecución, publicación, límites, costos potenciales y pruebas no verificables.
