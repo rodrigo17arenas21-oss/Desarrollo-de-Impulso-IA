@@ -73,6 +73,10 @@ def designer() -> rx.Component:
 
 def history() -> rx.Component:
     return rx.el.div(
+        rx.el.p(
+            "Guardadas solo en este navegador y este sitio. No se sincronizan con otros dispositivos o pestañas. Recarga esta lista para ver cambios. Borrar los datos del navegador elimina estas campañas.",
+            class_name="mx-auto w-full max-w-7xl px-5 pt-4 text-sm leading-6 text-gray-600 sm:px-8 lg:px-12",
+        ),
         header("historial"),
         rx.el.main(
             rx.el.div(
@@ -96,19 +100,9 @@ def history() -> rx.Component:
                 class_name="flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-center",
             ),
             rx.el.p(
-                "Guardadas solo en este navegador y este sitio. No se sincronizan con otros dispositivos o pestañas. Recarga esta lista para ver cambios. Borrar los datos del navegador elimina estas campañas.",
-                class_name="mt-4 text-sm leading-6 text-gray-600",
-            ),
-            rx.el.p(
                 BrowserState.notice,
                 role="alert",
                 class_name="mt-4 text-sm text-red-800",
-            ),
-            rx.el.p(
-                id="browser-status",
-                role="status",
-                aria_live="polite",
-                class_name="my-4 text-sm text-[#242668]",
             ),
             rx.el.div(
                 rx.cond(
@@ -124,6 +118,12 @@ def history() -> rx.Component:
                 ),
                 id="history-root",
                 class_name="grid w-full items-start gap-5 sm:grid-cols-2 lg:grid-cols-3",
+            ),
+            rx.el.p(
+                id="browser-status",
+                role="status",
+                aria_live="polite",
+                class_name="my-4 text-sm text-[#242668]",
             ),
             rx.el.button(
                 "Restaurar campaña seleccionada",

@@ -95,14 +95,14 @@ def process_step(
                 number, class_name="text-xs font-semibold text-[#242668]/70"
             ),
             rx.icon(icon, class_name="h-5 w-5 text-[#242668]"),
-            class_name="mb-6 flex items-center justify-between",
+            class_name="mb-3 flex items-center justify-between",
         ),
         rx.el.h3(
             title,
             class_name="text-lg font-semibold tracking-tight text-[#242668]",
         ),
         rx.el.p(description, class_name="mt-2 text-sm leading-6 text-gray-600"),
-        class_name="rounded-2xl border border-[#242668]/10 bg-white p-6 sm:p-7",
+        class_name="rounded-2xl border border-[#242668]/10 bg-white p-4",
     )
 
 
@@ -178,7 +178,7 @@ def home() -> rx.Component:
                         "Prepara textos locales, personaliza un diseño y guarda tu campaña en este navegador.",
                         class_name="mt-3 text-sm leading-6 text-gray-600",
                     ),
-                    class_name="mb-7",
+                    class_name="mb-4",
                 ),
                 rx.el.div(
                     process_step(
@@ -199,10 +199,10 @@ def home() -> rx.Component:
                         "Hazlo tuyo",
                         "Adapta una plantilla con tus textos, colores e imagen; descarga un PNG y guarda tu campaña localmente.",
                     ),
-                    class_name="grid gap-4 md:grid-cols-3",
+                    class_name="grid gap-3 md:grid-cols-3",
                 ),
                 id="como-funciona",
-                class_name="scroll-mt-6 border-t border-[#242668]/10 py-12 sm:py-14",
+                class_name="scroll-mt-6 border-t border-[#242668]/10 py-8 sm:py-10",
             ),
             class_name="mx-auto w-full max-w-7xl flex-1 px-5 sm:px-8 lg:px-12",
         ),

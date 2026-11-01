@@ -80,7 +80,7 @@
           "x": 0,
           "y": 9,
           "w": 12,
-          "h": 2,
+          "h": 1,
           "item_ref": null,
           "type_source": "palette"
         },
@@ -90,7 +90,7 @@
           "label": "Pie de página",
           "hint": "Lema de Impulso IA y texto para negocios con algo que contar.",
           "x": 0,
-          "y": 11,
+          "y": 10,
           "w": 12,
           "h": 1,
           "item_ref": null,
