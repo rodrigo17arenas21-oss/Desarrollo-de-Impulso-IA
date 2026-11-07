@@ -6,5 +6,5 @@ config = rx.Config(
     plugins=[
         rx.plugins.SitemapPlugin(),
         rx.plugins.TailwindV4Plugin(),
-    ],
+    ],reflex deploy --project 615e733f-317e-4616-866f-cadb92f096ac
 )
